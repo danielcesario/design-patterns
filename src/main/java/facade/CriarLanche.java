@@ -1,11 +1,12 @@
 package facade;
 
 import decorator.Lanche;
+import facade.rotinas.MontarLanche;
 
 public class CriarLanche {
 
-    public Lanche execute(final Pedido pedido) {
-        
+    public static void execute(final Pedido pedido) {
+        Lanche lanche = MontarLanche.execute(pedido.getItems());
     }
     
 }

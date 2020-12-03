@@ -1,5 +1,5 @@
 package facade.rotinas;
 
-public class ObterDescricao {
+public class CalcularImposto {
     
 }

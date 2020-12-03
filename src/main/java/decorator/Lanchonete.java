@@ -20,5 +20,6 @@ public class Lanchonete {
         Lanche lancheNatual = new Salada(new QueijoRicota(new PaoIntegral(new LancheInicial())));
         System.out.println(lancheNatual.getDescricao());
         System.out.println(lancheNatual.getPreco());
+
     }
 }
